@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    tools:context="com.example.shubhamgupta.voice.MainActivity">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="shubham" />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Sampling Frequency" />
+    <Spinner
+        android:id = "@+id/frequency"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/startrec"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Start Recording" />
+    <Button
+        android:id="@+id/stoprec"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Stop Recording" />
+    <Button
+        android:id="@+id/playback"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Play Back" />
+
+
+
+
+
+</LinearLayout>
